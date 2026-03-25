@@ -1,1 +1,0 @@
-IIF(memberOf("Splunk_Admins"), "sc_admin", IIF(memberOf("Splunk_ES_Admins"), "ess_admin", "user"))
